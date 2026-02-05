@@ -7,8 +7,12 @@ int main() {
     int a, b, c;
     int max;
 
-    printf("Nhập ba số nguyên: ");
-    scanf("%d %d %d", &a, &b, &c);
+    printf("Nhập số nguyên 1: ");
+    scanf("%d", &a);
+    printf("Nhập số nguyên 2: ");
+    scanf("%d", &b);
+    printf("Nhập số nguyên 3: ");
+    scanf("%d", &c);
 
     max = a;
     if (b > max) {
